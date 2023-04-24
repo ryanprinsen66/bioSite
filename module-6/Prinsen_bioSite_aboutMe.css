@@ -1,0 +1,106 @@
+html {
+	font-family: "comic sans ms";
+	background-color: #A0D8F1;
+	color: #0A224E;
+}
+header {
+	text-align: center;
+	width: 100%;
+	background-color: #0A224E;
+	color: #E9AF32;
+	padding: 5px;
+}
+#navbar {
+	overflow: hidden;
+	background-color: #0A224E;
+	border: 3px solid #E07628;
+}
+#navbar a {
+	text-decoration: none;
+	color: #E9AF32;
+	display: inline;
+	padding: 20px 150px;
+}
+#navbar p {
+	display: inline;
+	padding: 20px 150px;
+}
+#navbar a:visited {
+	color: #A0D8F1;
+}
+#navbar a:hover {
+	color: #BF381A;
+	text-decoration: underline;
+}
+h1, h2 {
+	text-align: center;
+}
+h1, h2, h3 {
+	text-decoration: underline;
+}
+#container p {
+	text-indent: 20px;
+	padding: 10px;
+	margin: 5px;
+}
+footer p {
+	font-weight 400;
+	float: right;
+	padding-right: 20px;
+	font-style: italic;
+}
+footer a {
+	text-decoration: none;
+	color: #E07628;
+}
+footer a:visited {
+	color: #E9AF32;
+}
+footer a:hover {
+	color: #BF381A;
+	text-decoration: underline;
+}
+#paraimg1 {
+	display: inline-block;
+	text-align: center;
+	padding 10px;
+}
+#para1 {
+	width: 45%;
+	float: left;
+	text-align: center;
+}
+img {
+	border: 10px solid #BF381A;
+}
+#toddler {
+	float: right;
+	width: 45%
+}
+#paraimg2 {
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+}
+#para2 {
+	width: 45%;
+	float: right;
+	text-align: center;
+}
+#preschool {
+	float: left;
+	width: 45%
+}
+#paraimg3 {
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+}
+#para3 {
+	width: 31%;
+	float: left;
+}
+#pic3 {
+	float: right;
+	width: 31%	
+}
