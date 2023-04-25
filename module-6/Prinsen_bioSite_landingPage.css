@@ -34,6 +34,10 @@ header {
 }
 figure {
 	text-align: center;
+	border: 10px solid #E07628;
+	background-color: #0A224E;
+	padding: 15px;
+	margin: 15px;
 }
 h2 {
 	text-align: center;
@@ -41,6 +45,18 @@ h2 {
 img {
 	border: 10px solid #BF381A;
 }
-
+figcaption {
+	font-style: italic;
+}
+#achievements {
+	display: inline-block;
+	float: left;
+	width: 45%;
+}
+#aspirations {
+	display: inline-block;
+	float: right;
+	width: 45%;
+}
 
 

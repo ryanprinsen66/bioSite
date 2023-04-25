@@ -51,7 +51,6 @@ img {
 	background-color: #0A224E;
 	color: #A0D8F1;
 }
-}
 #pic1 {
 	float: left;
 }
@@ -82,7 +81,6 @@ img {
 	background-color: #0A224E;
 	color: #A0D8F1;
 }
-}
 #pic5 {
 	float: left;
 }
@@ -98,7 +96,6 @@ img {
 	background-color: #0A224E;
 	color: #A0D8F1;
 }
-}
 #pic7 {
 	float: left;
 }
@@ -106,7 +103,7 @@ img {
 	float: right;
 }
 footer p {
-	font-weight 400;
+	font-weight: 400;
 	float: right;
 	padding-right: 20px;
 	font-style: italic;
