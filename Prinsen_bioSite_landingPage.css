@@ -33,6 +33,7 @@ header {
 	text-decoration: underline;
 }
 figure {
+	color: #A0D8F1;
 	text-align: center;
 	border: 10px solid #E07628;
 	background-color: #0A224E;
@@ -40,6 +41,10 @@ figure {
 	margin: 15px;
 }
 h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+h3 {
 	text-align: center;
 }
 img {
@@ -58,5 +63,7 @@ figcaption {
 	float: right;
 	width: 45%;
 }
-
+ul {
+	list-style-type: none;
+}
 
