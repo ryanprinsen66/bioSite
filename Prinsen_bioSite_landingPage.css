@@ -1,0 +1,62 @@
+html {
+	font-family: "comic sans ms";
+	background-color: #A0D8F1;
+	color: #0A224E;
+}
+header {
+	text-align: center;
+	width: 100%;
+	background-color: #0A224E;
+	color: #E9AF32;
+	padding: 5px;
+}
+#navbar {
+	overflow: hidden;
+	background-color: #0A224E;
+	border: 3px solid #E07628;
+}
+#navbar a {
+	text-decoration: none;
+	color: #E9AF32;
+	display: inline;
+	padding: 20px 150px;
+}
+#navbar p {
+	display: inline;
+	padding: 20px 150px;
+}
+#navbar a:visited {
+	color: #A0D8F1;
+}
+#navbar a:hover {
+	color: #BF381A;
+	text-decoration: underline;
+}
+figure {
+	text-align: center;
+	border: 10px solid #E07628;
+	background-color: #0A224E;
+	padding: 15px;
+	margin: 15px;
+}
+h2 {
+	text-align: center;
+}
+img {
+	border: 10px solid #BF381A;
+}
+figcaption {
+	font-style: italic;
+}
+#achievements {
+	display: inline-block;
+	float: left;
+	width: 45%;
+}
+#aspirations {
+	display: inline-block;
+	float: right;
+	width: 45%;
+}
+
+
