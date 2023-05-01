@@ -42,6 +42,9 @@ h1, h2, h3 {
 img {
 	border: 10px solid #BF381A;
 }
+ul {
+	list-style: none;
+}
 #pic1, #pic2 {
 	display: inline-block;
 	width: 40%;
@@ -50,7 +53,7 @@ img {
 	border: 5px solid #E07628;
 	background-color: #0A224E;
 	color: #A0D8F1;
-	padding-top: 50px;
+	padding-top: 40px;
 }
 #pic1 {
 	float: left;
@@ -66,7 +69,7 @@ img {
 	border: 5px solid #E07628;
 	background-color: #0A224E;
 	color: #A0D8F1;
-	padding-top: 50px;
+	padding-top: 40px;
 }
 #pic3 {
 	float: left;
@@ -82,7 +85,7 @@ img {
 	border: 5px solid #E07628;
 	background-color: #0A224E;
 	color: #A0D8F1;
-	padding-top: 50px;
+	padding-top: 40px;
 }
 #pic5 {
 	float: left;
@@ -98,7 +101,7 @@ img {
 	border: 5px solid #E07628;
 	background-color: #0A224E;
 	color: #A0D8F1;
-	padding-top: 50px;
+	padding-top: 40px;
 }
 #pic7 {
 	float: left;
