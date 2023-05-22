@@ -11,6 +11,7 @@ header {
 	padding: 5px;
 }
 #navbar {
+	width: 100%;
 	overflow: hidden;
 	background-color: #0A224E;
 	border: 3px solid #E07628;
@@ -19,7 +20,7 @@ header {
 	text-decoration: none;
 	color: #E9AF32;
 	display: inline;
-	padding: 20px 150px;
+	padding: 20px 75px;
 }
 #navbar p {
 	display: inline;
@@ -32,27 +33,107 @@ header {
 	color: #BF381A;
 	text-decoration: underline;
 }
-h1, h2 {
-	text-align: center;
+hr {
+	width: 100%;	
 }
 h1, h2, h3 {
+	text-align:center;
 	text-decoration: underline;
 }
 #container p {
 	text-indent: 20px;
 	padding: 10px;
-	margin: 5px;
+	margin: 10px;
 }
-footer p {
-	font-weight: 400;
+img {
+	border: 10px solid #BF381A;
+}
+#paraimg1 {
+	width: 100%;
+	display: inline;
+	text-align: center;
+	padding: 10px;
+	margin-top: 20px;
+}
+#para1 {
+	display: inline;
+	width: 40%;
+	float: left;
+	text-align: center;
+}
+img {
+	border: 10px solid #BF381A;
+}
+figure {
+	width: 40%;
+	border: 5px solid #E07628;
+	background-color: #0A224E;
+	width: 40%;
+	text-align: center;
+	padding: 5px;
+	color: #A0D8F1;
+	padding-top: 40px;
+}
+#toddler {
+	display: inline-block;
 	float: right;
-	padding-right: 20px;
+	width: 40%
+}
+#paraimg2 {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+}
+#para2 {
+	display: inline-block;
+	width: 40%;
+	float: right;
+	text-align: center;
+}
+#preschool {
+	display: inline-block;
+	float: left;
+	width: 40%
+}
+#paraimg3 {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+}
+#para3 {
+	display: inline-block;
+	width: 40%;
+	float: left;
+}
+#pic3 {
+	display: inline-block;
+	float: right;
+	width: 40%	
+}
+#navbarfoot {
+	width: 100%;
+	overflow: hidden;
+	background-color: #0A224E;
+	border: 3px solid #E07628;
+}
+#navbarfoot a {
+	float: right;
+	font-weight: 400;
+	padding-right: 300px;
+	padding-bottom: 15px;
 	font-style: italic;
-}
-footer a {
+	font-weight: 400;
 	text-decoration: none;
-	color: #E07628;
+	color: #E9AF32;	
 }
+#navbarfoot a:visited {
+	color: #A0D8F1;
+}
+#navbarfoot a:hover {
+	color: #BF381A;
+	text-decoration: underline;
 footer a:visited {
 	color: #E9AF32;
 }
@@ -60,47 +141,4 @@ footer a:hover {
 	color: #BF381A;
 	text-decoration: underline;
 }
-#paraimg1 {
-	display: inline-block;
-	text-align: center;
-	padding: 10px;
-}
-#para1 {
-	width: 45%;
-	float: left;
-	text-align: center;
-}
-img {
-	border: 10px solid #BF381A;
-}
-#toddler {
-	float: right;
-	width: 45%
-}
-#paraimg2 {
-	display: inline-block;
-	text-align: center;
-	padding: 10px;
-}
-#para2 {
-	width: 45%;
-	float: right;
-	text-align: center;
-}
-#preschool {
-	float: left;
-	width: 45%
-}
-#paraimg3 {
-	display: inline-block;
-	text-align: center;
-	padding: 10px;
-}
-#para3 {
-	width: 31%;
-	float: left;
-}
-#pic3 {
-	float: right;
-	width: 31%	
-}
+

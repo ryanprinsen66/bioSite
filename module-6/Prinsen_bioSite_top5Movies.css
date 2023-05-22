@@ -19,7 +19,7 @@ header {
 	text-decoration: none;
 	color: #E9AF32;
 	display: inline;
-	padding: 20px 150px;
+	padding: 20px 75px;
 }
 #navbar p {
 	display: inline;
@@ -32,36 +32,36 @@ header {
 	color: #BF381A;
 	text-decoration: underline;
 }
-h1, h2{
+h1, h2, h3{
 	text-decoration: underline;
 	text-align: center;
 }
 img {
+	width: 100%;
 	border: 10px solid #BF381A;
 }
 #imageGallery2 {
-	width: 42%;
+	width: 40%;
 	float: right;
 	display: inline-block;	
-	float: right;
 	margin: 20px;
 	padding: 35px;
-	margin-top: 40px;
+	margin-top: 5px;
 
 }
 #imageGallery {
-	width: 42%;
+	width: 40%;
 	display: inline-block;
 	padding: 35px;
-	margin: 20px;
-	margin-top: 45px;
+	margin: 10px;
+	margin-top: 5px;
 }
 .img1, .img2, .img3, .img4, .img5 {
 	text-align: center;
 	border: 5px solid #E07628;
 	background-color: #0A224E;
 	color: #A0D8F1;
-	margin-top: 20px;
+	margin-top: 15px;
 	padding: 5px;
 
 }
@@ -78,16 +78,32 @@ img {
 ol {
 	list-style: none;
 }
-footer p {
-	font-weight 400;
+li {
+	text-align: center;
+	padding-top: 50px;
+}
+#navbarfoot {
+	width: 100%;
+	overflow: hidden;
+	background-color: #0A224E;
+	border: 3px solid #E07628;
+}
+#navbarfoot a {
 	float: right;
-	padding-right: 20px;
+	font-weight: 400;
+	padding-right: 300px;
+	padding-bottom: 15px;
 	font-style: italic;
-}
-footer a {
+	font-weight: 400;
 	text-decoration: none;
-	color: #E07628;
+	color: #E9AF32;	
 }
+#navbarfoot a:visited {
+	color: #A0D8F1;
+}
+#navbarfoot a:hover {
+	color: #BF381A;
+	text-decoration: underline;
 footer a:visited {
 	color: #E9AF32;
 }
@@ -95,3 +111,4 @@ footer a:hover {
 	color: #BF381A;
 	text-decoration: underline;
 }
+
